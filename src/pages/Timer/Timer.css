@@ -1,0 +1,109 @@
+.countdown {
+  /* background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../assets/Timer/TimerBg.png"); */
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+  position: relative;
+  /* opacity: 0.4; */
+  /* backdrop-filter: opacity(0.2); */
+  /* background: linear-gradient(0deg, #4f4f4f 0%, #ffffff 50%, #949494 80%); */
+}
+
+.countdown h1 {
+  font-size: 3.7rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.countdown span {
+  color: #fa511a;
+}
+
+.timer {
+  width: 60vw;
+  height: 40vh;
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  box-shadow: 0px -2px 74px 1px #f44215;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/Timer/TimerBg.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.time-block {
+  width: 12em;
+  /* height: 20rem; */
+  margin: 0.2em;
+  padding: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: green; */
+  font-size: 2rem;
+  font-weight: 500;
+  gap: 0.5rem;
+}
+
+.digit {
+  border-radius: var(--br-xl);
+  background-color: black;
+  width: 2em;
+  height: 2em;
+  /* border: 2px solid var(--color-white); */
+  font-size: 1.6em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .timer div {
+    flex-direction: column;
+  }
+
+  .countdown h1 {
+    font-size: 2rem;
+  }
+
+  .timer {
+    height: 90vh;
+    width: 75vw;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.header-text {
+  font-size: 3.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.orange {
+  color: #fa511a;
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 2rem;
+  }
+
+  .countdown {
+    height: 120vh;
+  }
+
+  .timer {
+    padding-bottom: 1rem;
+  }
+}
