@@ -1,0 +1,35 @@
+.bomb-image {
+  position: fixed;
+  top: 50%;
+  left: 55px;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1170px) {
+  .bomb-image {
+    left: 50.2%;
+  }
+}
+
+@keyframes bombDrop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bomb-image {
+  /* ... existing styles */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 1s, opacity 1s;
+}
+
+.bomb-image.show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s;
+}
