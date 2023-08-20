@@ -5,8 +5,8 @@ import mainTitle from "../../assets/Hero/hero-main-title.png";
 import logoHeader from "../../assets/Hero/logo-header.png";
 import Arrow from "../../assets/Hero/arrow.svg";
 import bgImage from "../../assets/Hero/hero.png";
-
 // import Wow from "../../assets/Wow";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const [isToggleBoxVisible, setIsToggleBoxVisible] = useState(false);
@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <>
+    <div id="hero">
       <div id="toggleButton" class="hamburger-icon" onClick={toggleBox}>
         ☰
       </div>
@@ -27,7 +27,12 @@ const Hero = () => {
           ✕
         </div>
         <ul>
-          <li>Home</li>
+          <li onClick={toggleBox}>
+            <a href="#hero-section">Home</a>
+          </li>
+          <li onClick={toggleBox}>
+            <a href="#about-section">About</a>
+          </li>
           <li>About</li>
           <li>Prizes</li>
           <li>Problems</li>
@@ -36,13 +41,17 @@ const Hero = () => {
         </ul>
       </section>
 
-      <section class="hero">
+      <section id="hero-section" class="hero">
         <nav>
-          <img class="logo-header" src={logoHeader} />
+          <img class="logo-header" src={logoHeader} loading="lazy" />
 
           <ul>
-            <li class="nav-menu">Home</li>
-            <li class="nav-menu">About</li>
+            <li class="nav-menu">
+              <a href="#hero-section">Home</a>
+            </li>
+            <li class="nav-menu">
+              <a href="#about-section">About</a>
+            </li>
             <li class="nav-menu">Prizes</li>
             <li class="nav-menu">Problems</li>
             <li class="nav-menu">Rules</li>
@@ -51,19 +60,19 @@ const Hero = () => {
         </nav>
 
         <div>
-          <img class="hero-title-logo" src={mainTitle} />
+          <img class="hero-title-logo" src={mainTitle} loading="lazy" />
           <p>Hackers Assemble</p>
           <div class="devfolio-tile">
-            <img class="devfolio-logo" src={devfolio} />
+            <img class="devfolio-logo" src={devfolio} loading="lazy" />
             <h3>Apply with Devfolio</h3>
 
             <a href="https://hackx-1.devfolio.co/" target="blank">
-              <img class="svg" src={Arrow} />
+              <img class="svg" src={Arrow} loading="lazy" />
             </a>
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

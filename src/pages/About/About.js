@@ -3,9 +3,9 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section class="about container">
+    <section id="about-section" class="about container">
       <h1 class="header-text">
-        About Hac<span class="orange">X</span>
+        About Hack<span class="orange">X</span>
       </h1>
 
       <div class="content">
@@ -17,15 +17,15 @@ const About = () => {
             </span>
             , the <span class="font-big orange"> National-Level</span> Hackathon
             proudly organized by St. Francis Institute of Technology, Mumbai, as
-            part of our iconic
-            <span class="font-big orange">25th anniversary</span>
-            techfest, Mosaic.
+            part of our iconic{" "}
+            <span class="font-big orange">25th anniversary</span> techfest,
+            Mosaic.
           </p>
 
           <p>
             This extraordinary event gathers the sharpest minds from across the
-            nation in a vibrant celebration of
-            <span class="font-big orange">innovation</span> and
+            nation in a vibrant celebration of{" "}
+            <span class="font-big orange">innovation</span> and{" "}
             <span class="font-big orange">collaboration</span>. Aspiring
             developers, designers, and problem solvers will showcase their
             skills and <span class="font-big orange">creativity</span> , taking
@@ -42,14 +42,14 @@ const About = () => {
 
           <p>
             HackX is your <span class="font-big orange">gateway</span> to
-            becoming the tech titans that will shape our nation's
+            becoming the tech titans that will shape our nation's{" "}
             <span class="font-big orange">future</span> .
           </p>
         </div>
 
-        <div class="object">
+        {/* <div class="object">
           <div>3d object</div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

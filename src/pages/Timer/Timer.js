@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Timer.css";
 
 const Timer = () => {
-  const targetDate = new Date("2023-09-15T00:00:00").getTime();
+  const targetDate = new Date("2023-09-15T12:00:00").getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   function calculateTimeRemaining() {
@@ -35,9 +35,9 @@ const Timer = () => {
   }, []);
 
   return (
-    <section className="countdown container">
+    <section id="" className="countdown container">
       <h1>
-        Enter the Hac<span>X</span> in :
+        Enter the Hack<span>X</span> in :
       </h1>
 
       <div className="timer">
