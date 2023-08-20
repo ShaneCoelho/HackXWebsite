@@ -1,0 +1,344 @@
+.problem-statement {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../assets/ProblemStatement/background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 56px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.sub-heading {
+    font-size: 18px;
+    margin: 20px 0;
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.card-anime {
+    transition: transform 0.3s ease;
+    /* Add transition for smooth effect */
+}
+
+.card-anime:hover {
+    transform: scale(1.05);
+    /* Apply scale transformation on hover */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
+    /* Add box shadow on hover */
+}
+
+/* cards background css styles */
+
+.card-web-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardW1.png');
+    background-size: cover;
+    color: white;
+    /* transition: transform 0.3s ease; Add transition for smooth effect */
+}
+
+/* .card-web-1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+} */
+
+.card-web-2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardW2.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-web-3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardW3.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-ai-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardA1.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-ai-2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardA2.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-ai-3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardA3.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-block-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardB1.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-block-2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardB2.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-block-3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardB3.png');
+    background-size: cover;
+    color: white;
+}
+
+.card-open-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    background-image: url('../../assets/ProblemStatement/CardO1.png');
+    background-size: cover;
+    color: white;
+}
+
+
+
+/* end */
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .card-web-1 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-web-2 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-web-3 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-ai-1 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-ai-2 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-ai-3 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-block-1 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-block-2 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-block-3 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+
+    .card-open-1 {
+        width: 250px;
+        /* Adjusted width for phone view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .card-web-1 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-web-2 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-web-3 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-ai-1 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-ai-2 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-ai-3 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-block-1 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-block-2 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-block-3 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+
+    .card-open-1 {
+        width: 310px;
+        /* Width for desktop view */
+        height: 340px;
+        /* Height remains the same */
+        margin: 40px;
+    }
+}
