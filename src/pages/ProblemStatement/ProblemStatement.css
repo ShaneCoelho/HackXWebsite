@@ -1,7 +1,7 @@
 .problem-statement {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-image: url('../../assets/ProblemStatement/background-image.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,14 +13,14 @@
 }
 
 .heading {
-    font-size: 56px;
+    font-size: 3.7rem;
     margin-bottom: 20px;
     color: white;
     font-weight: 500;
 }
 
 .sub-heading {
-    font-size: 18px;
+    font-size: 30px;
     margin: 20px 0;
     color: white;
 }
@@ -168,7 +168,7 @@
 
 h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -258,6 +258,18 @@ p {
         height: 340px;
         /* Height remains the same */
         margin: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 18px;
     }
 }
 

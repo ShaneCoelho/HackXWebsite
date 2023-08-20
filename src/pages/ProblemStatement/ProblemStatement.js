@@ -8,7 +8,7 @@ const ProblemStatement=()=>{
         <div className="page-container">
         <h1 className="heading">Problem Statement</h1>
 
-        <h2 className="sub-heading">WEB/APP</h2>
+        <p className="sub-heading">WEB/APP</p>
         <div className="cards-container">
             
                 <div className="card-anime">
@@ -31,7 +31,7 @@ const ProblemStatement=()=>{
         </div>
         </div>
    
-        <h2 className="sub-heading">AI/ML</h2>
+        <p className="sub-heading">AI/ML</p>
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-ai-1">
@@ -53,7 +53,7 @@ const ProblemStatement=()=>{
         </div>
         </div>
 
-        <h2 className="sub-heading">Blockchain</h2>
+        <p className="sub-heading">Blockchain</p>
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-block-1">
@@ -75,7 +75,7 @@ const ProblemStatement=()=>{
         </div>
         </div>
 
-        <h2 className="sub-heading">Open Innovation</h2>
+        <p className="sub-heading">Open Innovation</p>
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-open-1">
