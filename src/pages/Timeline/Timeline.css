@@ -39,6 +39,7 @@
     url("../../assets/timeline/explosion.png");
   background-repeat: no-repeat;
   background-size: cover;
+  resize: vertical;
   z-index: -3;
 }
 
