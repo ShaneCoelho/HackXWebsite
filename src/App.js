@@ -7,6 +7,7 @@ import PrizePool from "./pages/PrizePool/PrizePool";
 import Timeline from "./pages/Timeline/Timeline";
 import Rules from "./pages/Rules/Rules";
 import Sponsors from "./pages/Sponsors/Sponsors";
+import Speakers from "./pages/Speakers/Speakers";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <ProblemStatement />
       <Rules />
       <Sponsors />
+      <Speakers />
     </div>
   );
 };
