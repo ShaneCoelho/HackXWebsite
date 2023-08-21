@@ -4,6 +4,7 @@ import Timer from "./pages/Timer/Timer";
 import About from "./pages/About/About";
 import ProblemStatement from "./pages/ProblemStatement/ProblemStatement";
 import PrizePool from "./pages/PrizePool/PrizePool";
+import Timeline from "./pages/Timeline/Timeline";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Hero />
       <Timer />
       <About />
-      <PrizePool />
+      <Timeline />
+      {/* <PrizePool /> */}
       <ProblemStatement />
     </div>
   );
