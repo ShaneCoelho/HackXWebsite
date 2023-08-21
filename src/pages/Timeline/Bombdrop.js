@@ -11,6 +11,7 @@ const BombDroppingEffect = () => {
     const render = useRef(false);
 
     useEffect(() => {
+        console.log(window.innerWidth, "width")
         const handleScroll = () => {
 
 
@@ -19,7 +20,8 @@ const BombDroppingEffect = () => {
                 render.current = false;
             }
             setScrollDirection(newScrollY > scrollY ? 'down' : 'up');
-            setScrollY(newScrollY);
+            if (newScrollY > scrollY)
+                setScrollY(newScrollY);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -34,7 +36,7 @@ const BombDroppingEffect = () => {
         <div className='bomb-container'>
 
             {
-                !render ? <div /> :
+                !render ? <div> </div> :
 
                     scrollY > end ? <img src={Blast} className={`bomb-image ${(scrollY > end && scrollDirection === 'down' && scrollY < end + 200) ? 'show' : ''}`} alt='blast' /> :
                         <img src={Bomb} className={`bomb-image ${(scrollY > 1000 && scrollDirection === 'down' && scrollY < end) ? 'show' : ''}`} alt='bomb' />

@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Timeline.css';
 import Explosion from '../../assets/timeline/explosion.png';
 import Bomb from '../../assets/timeline/bomb.png'
 import Target from '../../assets/timeline/target.png'
 import timeline from './Timeline_data';
 import BombDroppingEffect from './Bombdrop';
-import Blast from './Blast';
+
 
 
 
 const Timeline = () => {
+
+
+
     return (
         <React.Fragment>
 
@@ -47,7 +50,7 @@ const Timeline = () => {
                                         <p id="description">
                                             {e.description}
                                         </p>
-                                        <span className="timeline-element-date"
+                                        <span className="timeline-date"
                                         >{e.date}</span
                                         >
                                     </div>
@@ -67,5 +70,6 @@ const Timeline = () => {
         </React.Fragment>
     );
 }
+
 
 export default Timeline
