@@ -1,23 +1,19 @@
 .accordion-container{
     margin: 0;
-    margin-top: 1rem;
     padding: 0;
-    overflow: hidden;
+    padding-bottom: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 90vh;
 }
 .acc-tab{
     justify-content: center;
 }
 
 .acc-container{
-    margin: 0;
-    margin-left: 500px;
     padding-left: 500px;
     padding: 0;
-    overflow: hidden;
     justify-content: center;
     margin: 0 40px;
     max-width: 600px;
