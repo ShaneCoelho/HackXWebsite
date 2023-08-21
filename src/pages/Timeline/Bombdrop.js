@@ -11,7 +11,7 @@ const BombDroppingEffect = (props) => {
     const render = useRef(false);
 
     useEffect(() => {
-        console.log(window.innerWidth, "width")
+        // console.log(window.innerWidth, "width")
         const handleScroll = () => {
 
 

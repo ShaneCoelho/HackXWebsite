@@ -62,10 +62,10 @@ const Timeline = () => {
 
 
                     {
-                        timeline.map((e) => {
-                            console.log(e.date)
+                        timeline.map((e, i) => {
+                            // console.log(e.date)
                             return (
-                                <div className="timeline-element">
+                                <div key={i} className="timeline-element">
                                     <span
                                         className="timeline-element-icon"
 
