@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import './Timeline.css';
 import Explosion from '../../assets/timeline/explosion.png';
 import Bomb from '../../assets/timeline/bomb.png'
@@ -10,13 +10,45 @@ import BombDroppingEffect from './Bombdrop';
 
 
 const Timeline = () => {
+    const [showBombEffect, setShowBombEffect] = useState(false);
+    const [timelineHeight, setTimelineHeight] = useState(0);
+    const timelineRef = useRef(null);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (timelineRef.current) {
+                const rect = timelineRef.current.getBoundingClientRect();
+                const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
 
+                if (isVisible && !showBombEffect) {
+                    setShowBombEffect(true);
+                } else if (!isVisible && showBombEffect) {
+                    setShowBombEffect(false);
+                }
+            }
+        };
+
+        const updateTimelineHeight = () => {
+            if (timelineRef.current) {
+                setTimelineHeight(timelineRef.current.getBoundingClientRect().height);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', updateTimelineHeight);
+
+        updateTimelineHeight(); // Initial update
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', updateTimelineHeight);
+        };
+    }, [showBombEffect]);
 
     return (
         <React.Fragment>
 
-            <BombDroppingEffect />
+            {showBombEffect && <BombDroppingEffect end={timelineHeight - 30 + window.scrollY} />}
             <div className='timeline-bomb' >
                 <img src={Bomb} alt='bomb' className='bomb-image' />
             </div>
@@ -25,6 +57,7 @@ const Timeline = () => {
                 <div
 
                     className="timeline  timeline--two-columns"
+                    ref={timelineRef}
                 >
 
 

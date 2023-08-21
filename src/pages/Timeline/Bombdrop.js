@@ -3,9 +3,9 @@ import './bombdrop.css';
 import Bomb from '../../assets/timeline/bomb.png'
 import Blast from '../../assets/timeline/blast.gif'
 
-const BombDroppingEffect = () => {
-    const end = 3200;
-    const start = 1000;
+const BombDroppingEffect = (props) => {
+    const end = props.end;
+    const start = 0;
     const [scrollY, setScrollY] = useState(0);
     const [scrollDirection, setScrollDirection] = useState('down');
     const render = useRef(false);
