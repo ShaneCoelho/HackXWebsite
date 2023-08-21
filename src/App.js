@@ -5,6 +5,8 @@ import About from "./pages/About/About";
 import ProblemStatement from "./pages/ProblemStatement/ProblemStatement";
 import PrizePool from "./pages/PrizePool/PrizePool";
 import Timeline from "./pages/Timeline/Timeline";
+import Rules from "./pages/Rules/Rules";
+import Sponsors from "./pages/Sponsors/Sponsors";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Timeline />
       <PrizePool />
       <ProblemStatement />
+      <Rules />
+      <Sponsors />
     </div>
   );
 };
