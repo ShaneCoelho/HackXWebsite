@@ -9,7 +9,8 @@ import avatar_5 from "../../assets/Speakers/avatar-5.png"
 import avatar_6 from "../../assets/Speakers/avatar-6.png"
 import avatar_7 from "../../assets/Speakers/avatar-7.png"
 import background from "../../assets/Speakers/background.jpeg"
-
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 const Speakers = () => {
     return (
@@ -25,6 +26,7 @@ const Speakers = () => {
             <h2>Royston Dsilva</h2>
             <p>Consultant, Ex-Techlead Disney DS Smith</p>
             <a href="https://www.linkedin.com/in/dsilvaroyston/" target="_blank">LinkedIn</a>
+           {/* <SocialIcon url="https://linkedin.com/in/dsilvaroyston/" /> */}
           </div>
           <div className="carda">
               <img src={avatar_5} alt="Speaker 2"/>

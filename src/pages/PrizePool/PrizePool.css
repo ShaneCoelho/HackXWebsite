@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap");
 .prizepool-container{
   margin: 0;
+  margin-top: 1rem;
   padding: 0;
   overflow: hidden;
 }

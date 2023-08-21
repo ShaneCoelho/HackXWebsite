@@ -6,6 +6,7 @@ import ProblemStatement from "./pages/ProblemStatement/ProblemStatement";
 import PrizePool from "./pages/PrizePool/PrizePool";
 import Timeline from "./pages/Timeline/Timeline";
 import Speakers from "./pages/Speakers/Speakers";
+import Accordion from "./pages/Accordion/Accordion";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <PrizePool />
       <ProblemStatement />
       <Speakers />
+      <Accordion />
     </div>
   );
 };
