@@ -36,8 +36,8 @@ const BombDroppingEffect = () => {
             {
                 !render ? <div /> :
 
-                    scrollY > end ? <img src={Blast} className={`bomb-image ${(scrollY > end && scrollDirection === 'down') ? 'show' : ''}`} alt='blast' /> :
-                        <img src={Bomb} className={`bomb-image ${(scrollY > 1000 && scrollDirection === 'down') ? 'show' : ''}`} alt='bomb' />
+                    scrollY > end ? <img src={Blast} className={`bomb-image ${(scrollY > end && scrollDirection === 'down' && scrollY < end + 200) ? 'show' : ''}`} alt='blast' /> :
+                        <img src={Bomb} className={`bomb-image ${(scrollY > 1000 && scrollDirection === 'down' && scrollY < end) ? 'show' : ''}`} alt='bomb' />
             }
 
 
