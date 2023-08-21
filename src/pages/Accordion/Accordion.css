@@ -42,10 +42,10 @@
     cursor: pointer;
 }
 .acc-container .acc-tab label::after{
-    content: 'v';
+    content: '+';
     position: absolute;
     right: 20px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #999191;
     transition: transform 1s;
 }
@@ -53,8 +53,8 @@
    color: #fff;
 }
 .acc-container .acc-tab input:checked ~ label::after{
-    /* transform: rotate(135deg); */
-    transform: rotate(180deg);
+    transform: rotate(135deg);
+    /* transform: rotate(180deg); */
     color: #fff;
 }
 .acc-container .acc-tab label .num{
