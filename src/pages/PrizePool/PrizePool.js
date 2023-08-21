@@ -9,7 +9,7 @@ import replit from '../../assets/prizepool/replit.png'
 
 function PrizePool() {
   return (
-    <section class="prizepool container">
+    <section class="prizepool-container">
     <h1  class="header-text">
         PrizePool
     </h1>
@@ -57,6 +57,7 @@ function PrizePool() {
 <h1  class="header-text2">
 Partners
     </h1><br></br>
+    
   <div class="spn-container">
         <div class="gradient-cards">
           <div class="spn-card">

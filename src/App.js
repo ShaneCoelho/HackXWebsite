@@ -13,7 +13,7 @@ const App = () => {
       <Timer />
       <About />
       <Timeline />
-      {/* <PrizePool /> */}
+      <PrizePool />
       <ProblemStatement />
     </div>
   );
