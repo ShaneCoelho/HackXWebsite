@@ -64,7 +64,7 @@ head {
   
     margin-top: 5px;
     font-size: 1.5em;
-    color: #e74500;
+    color:  #fa511a;
   }
 
   .carda p {
@@ -83,7 +83,7 @@ head {
   }
   
   .carda:hover h2 {
-    color: #ff9900; /* Change the title color on hover */
+    color: #ff7300; /* Change the title color on hover */
   }
   
   .carda:hover a {
