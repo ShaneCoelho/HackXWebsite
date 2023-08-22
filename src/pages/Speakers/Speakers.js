@@ -8,9 +8,10 @@ import avatar_4 from "../../assets/Speakers/avatar-4.png"
 import avatar_5 from "../../assets/Speakers/avatar-5.png"
 import avatar_6 from "../../assets/Speakers/avatar-6.png"
 import avatar_7 from "../../assets/Speakers/avatar-7.png"
+import avatar_9 from "../../assets/Speakers/avatar9.jpeg"
 import background from "../../assets/Speakers/background.jpeg"
 import ReactDOM from 'react-dom';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 const Speakers = () => {
     return (
@@ -69,8 +70,13 @@ const Speakers = () => {
               <h2>Nimish Jain</h2>
               <p>SDE || at Microsoft</p>
               <a href="https://www.linkedin.com/in/nimishjain1000/" target="_blank">LinkedIn</a>
-          </div>     
-          
+          </div> 
+          <div className="carda">
+              <img src={avatar_9} alt="Speaker 9"/>
+              <h2>Lekhraj Varahney</h2>
+              <p>Senior Associate JP Morgan Chase & CO</p>
+              <a href="https://www.linkedin.com/in/lekhrajvarshney/" target="_blank">LinkedIn</a>
+          </div>   
         </section>
         </div>
      )

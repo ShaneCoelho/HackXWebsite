@@ -77,6 +77,20 @@ head {
     color: #0077B5;
     text-decoration: none;
   }
+  .carda:hover {
+    background-color: #333333; /* Change to a darker color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly elevate the card on hover */
+  }
+  
+  .carda:hover h2 {
+    color: #ff9900; /* Change the title color on hover */
+  }
+  
+  .carda:hover a {
+    color: #005599; /* Change the link color on hover */
+  }
+
+  
   header {
     padding: 30px 0;
   }

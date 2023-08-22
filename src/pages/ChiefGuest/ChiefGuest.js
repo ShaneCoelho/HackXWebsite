@@ -4,7 +4,7 @@ import background from "../../assets/ChiefGuest/background.jpeg";
 import instagram from "../../assets/ChiefGuest/instagram-icon.png";
 import linkedin from "../../assets/ChiefGuest/linkedin-icon.jpg";
 import youtube from "../../assets/ChiefGuest/youtube-icon.png";
-import profile from "../../assets/ChiefGuest/profile.jpeg";
+import profile from "../../assets/ChiefGuest/arshgoyal.jpg";
 
 
 const ChiefGuest =()=>{
