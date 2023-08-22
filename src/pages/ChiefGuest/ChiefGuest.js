@@ -11,7 +11,7 @@ const ChiefGuest =()=>{
     return(
 <section className="bodyb">
     <header>
-        <h1>Guest</h1>
+        <h1>Chief Guest</h1>
     </header>
     <main>
         <div className="cardb">

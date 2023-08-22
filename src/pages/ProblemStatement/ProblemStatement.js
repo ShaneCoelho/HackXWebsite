@@ -13,20 +13,20 @@ const ProblemStatement=()=>{
             
                 <div className="card-anime">
                     <div className="card-web-1">
-                        <h2>Random Text</h2>
-                        <p>This is just some random text.</p>
+                        <h2>Problem 1</h2>
+                        <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
                     </div>
                 </div>
             <div className="card-anime">
             <div className="card-web-2">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 2</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         <div className="card-anime">
             <div className="card-web-3">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 3</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         </div>
@@ -35,20 +35,20 @@ const ProblemStatement=()=>{
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-ai-1">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 1</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         <div className="card-anime">
             <div className="card-ai-2">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 2</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         <div className="card-anime">
             <div className="card-ai-3">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 3</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         </div>
@@ -57,20 +57,20 @@ const ProblemStatement=()=>{
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-block-1">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 1</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         <div className="card-anime">
             <div className="card-block-2">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 2</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         <div className="card-anime">
             <div className="card-block-3">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 3</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         </div>
@@ -79,8 +79,8 @@ const ProblemStatement=()=>{
         <div className="cards-container">
             <div className="card-anime">
             <div className="card-open-1">
-                <h2>Random Text</h2>
-                <p>This is just some random text.</p>
+                <h2>Problem 1</h2>
+                <p>Please dont try to inspect the code and try to find the problem statement before hand. Because we have not included any problem yet.</p>
             </div>
         </div>
         </div>
