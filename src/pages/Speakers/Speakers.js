@@ -25,7 +25,7 @@ const Speakers = () => {
           <div className="carda">
             <img src={avatar_7} alt="Speaker 1"/>
             <h2>Royston Dsilva</h2>
-            <p>Consultant, Ex-Techlead Disney DS Smith</p>
+            <p>Consultant | Ex-Techlead Disney DS Smith</p>
             
             <SocialIcon url="https://linkedin.com/in/dsilvaroyston/" /> 
           </div>
@@ -42,7 +42,7 @@ const Speakers = () => {
           <div className="carda">
               <img src={avatar_5} alt="Speaker 2"/>
               <h2>Srinivas Konduri</h2>
-              <p>SDE,BITS Pilani Hyderabad '22</p>  
+              <p>SDE | BITS Pilani Hyderabad '22</p>  
               <SocialIcon url="https://www.linkedin.com/in/srinivas-konduri/" /> 
           </div>
           <div className="carda">
@@ -63,7 +63,7 @@ const Speakers = () => {
           <div className="carda">
               <img src={avatar_1} alt="Speaker 4"/>
               <h2>Dishant Zaveri</h2>
-              <p>Singapore India hackathon '23 winner, SIH '22 winner</p>
+              <p>Singapore India hackathon '23 winner | SIH '22 winner</p>
               <SocialIcon url="https://www.linkedin.com/in/dishant-zaveri-4301471b9/" /> 
           </div>
 
@@ -71,14 +71,14 @@ const Speakers = () => {
           <div className="carda">
               <img src={avatar_6} alt="Speaker 4"/>
               <h2>Vishek Pratak</h2>
-              <p>Co-Founder & CMO of TechValley, DevRel Evangelist mentor</p>
+              <p>Co-Founder & CMO of TechValley | DevRel Evangelist mentor</p>
               <SocialIcon url="https://www.linkedin.com/in/vishekpratap/" /> 
           </div>
 
           <div className="carda">
               <img src={avatar_2} alt="Speaker 7"/>
               <h2>Yash Joshi</h2>
-              <p>Smart India hackathon '22 winner, 9x hackathon winner</p>
+              <p>Smart India hackathon '22 winner | 9x hackathon winner</p>
               <SocialIcon url="https://www.linkedin.com/in/yash-joshi-3444a420b/" /> 
           </div>
 
