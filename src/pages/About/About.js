@@ -40,11 +40,11 @@ const About = () => {
             of Mumbai's tech excellence.
           </p>
 
-          {/* <p>
+          <p>
             HackX is your <span class="font-big orange">gateway</span> to
             becoming the tech titans that will shape our nation's{" "}
             <span class="font-big orange">future</span> .
-          </p> */}
+          </p>
         </div>
 
         {/* <div class="object">
