@@ -52,10 +52,14 @@ const Hero = () => {
             <li class="nav-menu">
               <a href="#about-section">About</a>
             </li>
-            <li class="nav-menu">Prizes</li>
-            <li class="nav-menu">Problems</li>
-            <li class="nav-menu">Rules</li>
-            <li class="nav-menu">Sponsors</li>
+            <li class="nav-menu">
+              <a href="#prizes">Prizes </a></li>
+            <li class="nav-menu">
+              <a href="#problems">Problems</a></li>
+            {/* <li class="nav-menu">
+              <a href="#prizes">Rules</a></li> */}
+            {/* <li class="nav-menu">
+              <a href="#prizes">Sponsors</a></li> */}
           </ul>
         </nav>
 
