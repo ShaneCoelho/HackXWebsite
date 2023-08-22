@@ -5,7 +5,7 @@ import instagram from "../../assets/ChiefGuest/instagram-icon.png";
 import linkedin from "../../assets/ChiefGuest/linkedin-icon.jpg";
 import youtube from "../../assets/ChiefGuest/youtube-icon.png";
 import profile from "../../assets/ChiefGuest/arshgoyal.jpg";
-
+import { SocialIcon } from 'react-social-icons';
 
 const ChiefGuest =()=>{
     return(
@@ -24,9 +24,9 @@ const ChiefGuest =()=>{
                 <p>Samsung | Ex- ISRO | Gold Medalist - NIT Jalandhar | Educator-Unacademy | CodeChef</p>
             </div>
             <div className="social-icons">
-                <a href="https://www.youtube.com/channel/UCJqx8MM4gDPDy8TqVVlPyLw"><img src={youtube} alt="YouTube"/></a>
-                <a href="https://www.instagram.com/arshgoyalyt/?hl=en"><img src={instagram} alt="Instagram"/></a>
-                <a href="https://www.linkedin.com/in/arshgoyal/"><img src={linkedin} alt="LinkedIn"/></a>
+                <SocialIcon url="https://www.youtube.com/channel/UCJqx8MM4gDPDy8TqVVlPyLw" />
+                <SocialIcon url="https://www.instagram.com/arshgoyalyt/?hl=en" />
+                <SocialIcon url="https://linkedin.com/in/arshgoyal/" />
             </div>
         </div>
     </main>
