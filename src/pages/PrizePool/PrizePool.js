@@ -9,7 +9,7 @@ import replit from '../../assets/prizepool/replit.png'
 
 function PrizePool() {
   return (
-    <section id="prizes" className="prizepool-container">
+    <section id="prize-section" class="prizepool-container">
       <h1 class="header-text">
         PrizePool
       </h1>
