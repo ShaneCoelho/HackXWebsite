@@ -8,6 +8,7 @@ import Timeline from "./pages/Timeline/Timeline";
 import Speakers from "./pages/Speakers/Speakers";
 import Accordion from "./pages/Accordion/Accordion";
 import ChiefGuest from "./pages/ChiefGuest/ChiefGuest"
+import Footer from "./pages/Footer/Footer";
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
       <ChiefGuest/>
       <Speakers />
       <Accordion />
-     
+     <Footer />
     </div>
   );
 };
