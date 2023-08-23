@@ -25,7 +25,7 @@ const Rules = () => {
           <p>Teams should Register only through Devfolio</p>
         </div>
       </header>
-      <div className="para">
+      <div className="paras">
         <div className="icon">
           <img src={warning} alt="Icon" className="warning" />
           <p>

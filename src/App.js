@@ -22,7 +22,7 @@ const App = () => {
       <PrizePool />
       <ProblemStatement />
       <ChiefGuest />
-      <Rules />
+      {/* <Rules /> */}
       <Speakers />
 
       <Accordion />

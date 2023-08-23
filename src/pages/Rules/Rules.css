@@ -53,14 +53,15 @@ img.dev {
 header {
   font-family: "Poppins", sans-serif;
 }
-.para {
+.paras {
   font-family: "Source Code Pro", monospace;
   font-size: 1.2rem;
   max-width: fit-content !important ;
+  width: 100vw;
   margin: 0 3rem;
 }
 @media screen and (max-width: 768px) {
-  .para {
+  .paras {
     margin: 0rem 1rem;
   }
 }

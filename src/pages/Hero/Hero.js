@@ -59,10 +59,12 @@ const Hero = () => {
             <li class="nav-menu">
               <a href="#problem-section">Problem</a>
             </li>
-           <li class="nav-menu">
-              <a href="#prizes">Rules</a></li>
             <li class="nav-menu">
-              <a href="#prizes">Sponsors</a></li> 
+              <a href="#prizes">Rules</a>
+            </li>
+            <li class="nav-menu">
+              <a href="#sponsors">Sponsors</a>
+            </li>
           </ul>
         </nav>
 
