@@ -1,7 +1,7 @@
 .accordion-container{
     margin: 0;
     padding: 0;
-    padding-bottom: 38px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +116,9 @@
     background:linear-gradient(135deg,#ec563b,#ffbb00);
     /* background:linear-gradient(135deg,#fd6e6a,#ffc600); */
 }
+.acc-container .acc-tab:nth-child(6) label .num{
+    background:linear-gradient(135deg,#ec563b,#ffbb00);
+}
 .acc-container .acc-tab .tab-content{
     max-height: 0;
     transition: 1s;
@@ -134,4 +137,11 @@
 }
 .acc-container .acc-tab input:checked ~ .tab-content p{
     color: #fff;
+}
+@media screen and (max-width: 768px){
+    .acc-container{
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 280px;
+    }
 }
