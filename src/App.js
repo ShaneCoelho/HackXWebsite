@@ -8,7 +8,9 @@ import Timeline from "./pages/Timeline/Timeline";
 import Rules from "./pages/Rules/Rules";
 import Sponsors from "./pages/Sponsors/Sponsors";
 import Speakers from "./pages/Speakers/Speakers";
-import Footer from "./Footer/Footer";
+import Accordion from "./pages/Accordion/Accordion";
+import ChiefGuest from "./pages/ChiefGuest/ChiefGuest";
+import Footer from "./pages/Footer/Footer";
 
 const App = () => {
   return (
@@ -19,10 +21,11 @@ const App = () => {
       <Timeline />
       <PrizePool />
       <ProblemStatement />
-      <Speakers />
+      <ChiefGuest />
       <Rules />
-      <Sponsors />
+      <Speakers />
 
+      <Accordion />
       <Footer />
     </div>
   );
