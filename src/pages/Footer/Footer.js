@@ -42,10 +42,10 @@ function Footer() {
           <div className="footer-col">
             <h4>FOLLOW US</h4>
             <div className="social-links">
-              <a href="" target="_blank">
+              <a href="https://www.instagram.com/techfest_mosaic/?hl=en" target="_blank">
                 <img className="" src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" alt="insta" />
               </a>
-              <a href="" target="_blank">
+              <a href="https://www.linkedin.com/school/sfit/?originalSubdomain=in" target="_blank">
                 <img className="" src="https://cdn-icons-png.flaticon.com/512/179/179330.png" alt="linkedin" />
               </a>
               <a href="#" target="_blank">
