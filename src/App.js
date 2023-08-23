@@ -8,6 +8,7 @@ import Timeline from "./pages/Timeline/Timeline";
 import Rules from "./pages/Rules/Rules";
 import Sponsors from "./pages/Sponsors/Sponsors";
 import Speakers from "./pages/Speakers/Speakers";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -18,9 +19,11 @@ const App = () => {
       <Timeline />
       <PrizePool />
       <ProblemStatement />
+      <Speakers />
       <Rules />
       <Sponsors />
-      <Speakers />
+
+      <Footer />
     </div>
   );
 };

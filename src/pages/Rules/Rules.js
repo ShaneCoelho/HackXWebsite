@@ -9,7 +9,7 @@ const Rules = () => {
   return (
     <div>
       <header>
-        <div>
+        <div className="header-text">
           <p style={{ fontSize: "35px", marginTop: "1rem" }}>
             Hack<span style={{ color: "orange" }}>X</span> Rules/Guidelines
           </p>
