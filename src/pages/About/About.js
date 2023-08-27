@@ -1,9 +1,10 @@
 import React from "react";
 import "./About.css";
 
+
 const About = () => {
   return (
-    <section id="about-section" class="about container">
+    <section id="about-section" class="about-container">
       <h1 class="header-text">
         About Hack<span class="orange">X</span>
       </h1>

@@ -56,6 +56,9 @@
 } */
 
 @media (max-width: 768px) {
+  .about-container{
+    overflow: hidden;
+  }
   .content {
     flex-direction: column-reverse;
     /* height: 100vh; */
