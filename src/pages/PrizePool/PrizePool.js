@@ -26,7 +26,7 @@ function PrizePool() {
           <div class="front1">
             <h1 class="font-style">1st</h1>
             <h1 class="font-style">Runner Up</h1>
-            <p class="price">$ 240</p>
+            <p class="price">₹ 20,000</p>
             <div class="img-wrapper">
               <img class="prize" src={winner} alt="Floating Image 1" />
             </div>
@@ -35,7 +35,7 @@ function PrizePool() {
         <div class="card center-card">
           <div class="front2">
             <h1 class="font-style">Winner</h1>
-            <p class="price">$ 360</p>
+            <p class="price">₹ 30,000</p>
             <div class="img-wrapper center-card">
               <img class="prize" src={winner} alt="Floating Image 2" />
             </div>
@@ -45,7 +45,7 @@ function PrizePool() {
           <div class="front3">
             <h1 class="font-style">2nd</h1>
             <h1 class="font-style">Runner Up</h1>
-            <p class="price">$ 120</p>
+            <p class="price">₹ 10,000</p>
             <div class="img-wrapper">
               <img class="prize" src={winner} alt="Floating Image 3" />
             </div>
