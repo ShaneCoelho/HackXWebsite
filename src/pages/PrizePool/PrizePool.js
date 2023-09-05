@@ -9,6 +9,9 @@ import replit from '../../assets/prizepool/replit.png'
 
 function PrizePool() {
   return (
+    <>
+    
+  
     <section id="prize-section" class="prizepool-container">
       <h1 class="header-text">
         PrizePool
@@ -22,7 +25,8 @@ function PrizePool() {
       </h2>
 
       <div class="wrapper">
-        <div class="card">
+
+        {/* <div class="card">
           <div class="front1">
             <h1 class="font-style">1st</h1>
             <h1 class="font-style">Runner Up</h1>
@@ -31,17 +35,19 @@ function PrizePool() {
               <img class="prize" src={winner} alt="Floating Image 1" />
             </div>
           </div>
-        </div>
+        </div> */}
+        
         <div class="card center-card">
           <div class="front2">
             <h1 class="font-style">Winner</h1>
-            <p class="price">₹ 30,000</p>
+            <p class="price">₹30,000</p>
             <div class="img-wrapper center-card">
               <img class="prize" src={winner} alt="Floating Image 2" />
             </div>
           </div>
         </div>
-        <div class="card">
+
+        {/* <div class="card">
           <div class="front3">
             <h1 class="font-style">2nd</h1>
             <h1 class="font-style">Runner Up</h1>
@@ -50,13 +56,64 @@ function PrizePool() {
               <img class="prize" src={winner} alt="Floating Image 3" />
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
-      <br></br><br></br>
+      <h1 class="header-text3">
+      Track Prize Winners
+      </h1>
+<div class="wrapper">
+  
+<div class="card">
+  <div class="front1">
+    <h1 class="font-style">1st</h1>
+    <h1 class="font-style">Runner Up</h1>
+    <p class="price">₹20,000</p>
+    <div class="img-wrapper">
+      <img class="prize" src={winner} alt="Floating Image 1" />
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="front1">
+    <h1 class="font-style">1st</h1>
+    <h1 class="font-style">Runner Up</h1>
+    <p class="price">₹20,000</p>
+    <div class="img-wrapper">
+      <img class="prize" src={winner} alt="Floating Image 1" />
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="wrapper track2">
+<div class="card">
+  <div class="front1">
+    <h1 class="font-style">1st</h1>
+    <h1 class="font-style">Runner Up</h1>
+    <p class="price">₹20,000</p>
+    <div class="img-wrapper">
+      <img class="prize" src={winner} alt="Floating Image 1" />
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="front1">
+    <h1 class="font-style">1st</h1>
+    <h1 class="font-style">Runner Up</h1>
+    <p class="price">₹20,000</p>
+    <div class="img-wrapper">
+      <img class="prize" src={winner} alt="Floating Image 1" />
+    </div>
+  </div>
+</div>
+</div>      
       <h1 class="header-text2">
         Partners
       </h1><br></br>
+     
 
       <div class="spn-container">
         <div class="gradient-cards">
@@ -120,6 +177,7 @@ function PrizePool() {
         </div>
       </div>
     </section>
+    </>
   )
 }
 
