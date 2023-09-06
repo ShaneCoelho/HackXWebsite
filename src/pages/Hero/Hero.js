@@ -33,12 +33,19 @@ const Hero = () => {
           <li onClick={toggleBox}>
             <a href="#about-section">About</a>
           </li>
-
-          <li>About</li>
-          <li>Prizes</li>
-          <li>Problems</li>
-          <li>Rules</li>
-          <li>Sponsors</li>
+          <li onClick={toggleBox}>
+            <a href="#prize-section">Prizes</a>
+          </li>
+          <li onClick={toggleBox}>
+            <a href="#problem-section">Problems</a>
+          </li>
+          <li onClick={toggleBox}>
+            <a href="#rules-section">Rules</a>
+          </li>
+          <li onClick={toggleBox}>
+            <a href="#sponsors-section">Sponsors</a>
+          </li>
+    
         </ul>
       </section>
 

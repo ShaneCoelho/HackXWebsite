@@ -39,7 +39,7 @@ function PrizePool() {
         
         <div class="card center-card">
           <div class="front2">
-            <h1 class="font-style">Winner</h1>
+            <h1 class="font-style">1st Prize</h1>
             <p class="price">₹30,000</p>
             <div class="img-wrapper center-card">
               <img class="prize" src={winner} alt="Floating Image 2" />
@@ -66,9 +66,9 @@ function PrizePool() {
   
 <div class="card">
   <div class="front1">
-    <h1 class="font-style">1st</h1>
-    <h1 class="font-style">Runner Up</h1>
-    <p class="price">₹20,000</p>
+    <h1 class="font-style">AI/ML</h1>
+    {/* <h1 class="font-style">Runner Up</h1> */}
+    <p class="price">₹10,000</p>
     <div class="img-wrapper">
       <img class="prize" src={winner} alt="Floating Image 1" />
     </div>
@@ -77,9 +77,9 @@ function PrizePool() {
 
 <div class="card">
   <div class="front1">
-    <h1 class="font-style">1st</h1>
-    <h1 class="font-style">Runner Up</h1>
-    <p class="price">₹20,000</p>
+    <h1 class="font-style">Web/App</h1>
+    {/* <h1 class="font-style">Runner Up</h1> */}
+    <p class="price">₹10,000</p>
     <div class="img-wrapper">
       <img class="prize" src={winner} alt="Floating Image 1" />
     </div>
@@ -90,9 +90,9 @@ function PrizePool() {
   <div class="wrapper track2">
 <div class="card">
   <div class="front1">
-    <h1 class="font-style">1st</h1>
-    <h1 class="font-style">Runner Up</h1>
-    <p class="price">₹20,000</p>
+    <h1 class="font-style">Blockchain</h1>
+    {/* <h1 class="font-style">Runner Up</h1> */}
+    <p class="price">₹10,000</p>
     <div class="img-wrapper">
       <img class="prize" src={winner} alt="Floating Image 1" />
     </div>
@@ -101,9 +101,9 @@ function PrizePool() {
 
 <div class="card">
   <div class="front1">
-    <h1 class="font-style">1st</h1>
-    <h1 class="font-style">Runner Up</h1>
-    <p class="price">₹20,000</p>
+    <h1 class="font-style">Open </h1>
+    <h1 class="font-style">Innovation</h1>
+    <p class="price">₹10,000</p>
     <div class="img-wrapper">
       <img class="prize" src={winner} alt="Floating Image 1" />
     </div>

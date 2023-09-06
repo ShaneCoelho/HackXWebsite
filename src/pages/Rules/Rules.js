@@ -7,7 +7,7 @@ import warning from "../../assets/Rules/w.png";
 
 const Rules = () => {
   return (
-    <div>
+    <section id="rules-section">
       <header>
         <div className="header-text">
           <p style={{ fontSize: "35px", marginTop: "1rem" }}>
@@ -118,7 +118,7 @@ const Rules = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

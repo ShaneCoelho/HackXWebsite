@@ -52,7 +52,7 @@ import "./Sponsors.css"; // Import your custom CSS file
 
 const Sponsors = () => {
   return (
-    <div>
+    <div id="sponsors-section">
       <section>
         <h2 id="sponsors" className="section-title">
           Hack<span className="orange-text">X</span> Sponsors
