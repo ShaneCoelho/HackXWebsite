@@ -11,6 +11,9 @@ import avatar_7 from "../../assets/Speakers/avatar-7.png"
 import avatar_9 from "../../assets/Speakers/avatar9.jpeg"
 import avatar_10 from "../../assets/Speakers/avatar-10.png"
 import avatar_11 from "../../assets/Speakers/avatar-11.png"
+import avatar_12 from "../../assets/Speakers/avatar-12.png"
+import avatar_13 from "../../assets/Speakers/avatar-13.png"
+import avatar_14 from "../../assets/Speakers/avatar-14.png"
 import background from "../../assets/Speakers/background.jpeg"
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
@@ -101,11 +104,36 @@ const Speakers = () => {
                 </div>
 
                 <div className="carda">
-                    <img src={avatar_11} alt="Speaker 10" />
+                    <img src={avatar_11} alt="Speaker 11" />
                     <h2>Kaivan Shah</h2>
                     <p>Software Development Engineer at Morgan Stanley</p>
 
                     <SocialIcon url="https://www.linkedin.com/in/kaivan-shah14/" />
+                </div>
+
+
+                <div className="carda">
+                    <img src={avatar_12} alt="Speaker 12" />
+                    <h2>Jay Malave</h2>
+                    <p>Google DSC Lead at KJSCE | Committee Head at KJSCE CodeCell | Leading Tech at Kaamyup | Software Developer at iGEM 2 IISER Pune | Flutter Developer at Paisa | Freelancer</p>
+
+                    <SocialIcon url="https://www.linkedin.com/in/jay-malave/" />
+                </div>
+
+                <div className="carda">
+                    <img src={avatar_13} alt="Speaker 13" />
+                    <h2>Sahil Nirkhe</h2>
+                    <p>Engineer at BrowserStack</p>
+
+                    <SocialIcon url="https://www.linkedin.com/in/sahil-nirkhe/" />
+                </div>
+
+                <div className="carda">
+                    <img src={avatar_14} alt="Speaker 14" />
+                    <h2>Siddhant Mishra</h2>
+                    <p>Senior Analyst at Capgemini | Software Engineer</p>
+
+                    <SocialIcon url="https://www.linkedin.com/in/siddhant-mishra-021726181/" />
                 </div>
 
 
