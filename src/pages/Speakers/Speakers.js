@@ -14,6 +14,7 @@ import avatar_11 from "../../assets/Speakers/avatar-11.png"
 import avatar_12 from "../../assets/Speakers/avatar-12.png"
 import avatar_13 from "../../assets/Speakers/avatar-13.png"
 import avatar_14 from "../../assets/Speakers/avatar-14.png"
+import avatar_15 from "../../assets/Speakers/avatar-15.png"
 import background from "../../assets/Speakers/background.jpeg"
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
@@ -134,6 +135,14 @@ const Speakers = () => {
                     <p>Senior Analyst at Capgemini | Software Engineer</p>
 
                     <SocialIcon url="https://www.linkedin.com/in/siddhant-mishra-021726181/" />
+                </div>
+
+                <div className="carda">
+                    <img src={avatar_15} alt="Speaker 15" />
+                    <h2>Harshal Dave</h2>
+                    <p>Full Stack Geek | Founder - Maalvo Learners | Finalist at SIH2022, Kavach2023 | Won 5+ national hackathons</p>
+
+                    <SocialIcon url="https://www.linkedin.com/in/harshalhdave/" />
                 </div>
 
 
