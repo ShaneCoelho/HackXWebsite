@@ -116,7 +116,7 @@ const Speakers = () => {
                 <div className="carda">
                     <img src={avatar_12} alt="Speaker 12" />
                     <h2>Jay Malave</h2>
-                    <p>Google DSC Lead at KJSCE | Committee Head at KJSCE CodeCell | Leading Tech at Kaamyup | Software Developer at iGEM 2 IISER Pune | Flutter Developer at Paisa | Freelancer</p>
+                    <p>Full Stack Developer Lead at Days Finance, Ex-Google DSC Lead, KJSCE.</p>
 
                     <SocialIcon url="https://www.linkedin.com/in/jay-malave/" />
                 </div>
@@ -140,7 +140,7 @@ const Speakers = () => {
                 <div className="carda">
                     <img src={avatar_15} alt="Speaker 15" />
                     <h2>Harshal Dave</h2>
-                    <p>Full Stack Geek | Founder - Maalvo Learners | Finalist at SIH2022, Kavach2023 | Won 5+ national hackathons</p>
+                    <p>6x hackathon winner | Top 300 Junction Asia | SIH22 & Kavach23 Finalist | Product Manager | Co author @YRC Press (Quantum Compute) | Ex-Founder</p>
 
                     <SocialIcon url="https://www.linkedin.com/in/harshalhdave/" />
                 </div>
